@@ -243,6 +243,11 @@
       padding: 0;
     }
 
+    #sticky-footer{
+      margin-top: 50px;
+      transform: translateY(70px);
+    }  
+
     .mh-professional-skills {
       padding-left: 0%;
       
