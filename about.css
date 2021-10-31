@@ -226,7 +226,18 @@
       border-top: 0px solid black ;
     }
 
-      
+    @media (min-width: 800px){
+      .about-image{
+        margin-left: 50px;
+        height: 400px;
+        width: 80%;
+      }
+
+      .about-title{
+        margin-top: 100px !important;
+      }
+
+    }
   @media (max-width: 768px) {
     body {
       padding: 0;
@@ -236,13 +247,18 @@
       padding-left: 0%;
       
     }
+    .keyyy{
+      margin-top: 80px;
+      padding-top: 80px;
+    }
+
     .nav-link:hover{
       border-bottom: none !important;
     }
 
     .subsection{
       height: 50vh;
-      margin-top: 20px;
+      margin-top: 30px;
     }
 
     h3{
@@ -276,21 +292,18 @@
     }
 
     .about-image{
-      height: 0px;
+      height: 20%;
+      background-color: aqua;
       width: 100%;
       margin: 0px auto !important;
-      padding-bottom: 10px;
     } 
 
   }
 
-   .about-image{
-    margin-left: 50px;
-    height: 500px;
+  .about-image{
+    margin-left: 5px;
     width: 80%;
-    
-    
-  } 
+  }
 
   h1 span{
     font-weight: 900;
@@ -333,4 +346,8 @@
   #sticky-footer{
     position: sticky;
     top: 100%;
+  }
+
+  .paragraph{
+    margin: auto 10px;
   }
