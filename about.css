@@ -1,0 +1,336 @@
+.mh-skills .mh-professional-skill{
+    padding-right: 60px;
+    color: black;
+}
+
+.mh-skills .mh-professional-skill h3{
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mh-professional-skills {
+    padding-left: 20%;
+    background: rgba(128, 128, 128, 0);
+}
+
+.mh-professional-skills h3{
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mh-professional-progress li{
+    display:inline-block;
+    margin: 0 auto;
+    float: none;
+    width: 48%;
+    margin-bottom: 30x;
+    text-align: center;
+}
+
+.mh-progress{
+    margin-bottom: 10px;
+    font: 900 1.14285/1;
+    color:black;
+}
+
+.progress .progress-text{
+    color: inherit !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.progress.progress-line{
+    height: 10px;
+    margin-right: 60px;
+}
+
+.progress.progress-line .progressbar-text{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 60px;
+    transform: translateY(-35%);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.candidates{
+    position: relative;
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.candidates .partial{
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.candidates .partial .info{
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+}
+
+.candidates .partial .info .name{
+    position:absolute;
+    top: 0;
+    left: 0;
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 0.9;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.candidates .partial .info .percentage{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.candidates .partial .progressBar{
+    position: relative;
+    width: 100%;
+    height: 7px;
+    margin: 30px 0 2px;
+    border-radius:10px;
+    background: rgba(0, 0, 0, 0.164);
+}
+.candidates .partial .percentagem{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 7px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-image: linear-gradient(90deg, rgba(228,110,110,1) 0%, rgba(255,182,0,1) 100%);
+    -webkit-transition: 3s all;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-name:animationProgress;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+@keyframes animationProgress {
+    from{
+        width: 0;
+    }
+    
+}
+
+/*nav section*/
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito', sans-serif;
+    }
+
+    .menu-bar{
+     background-color: rgba(255, 255, 255, 0.192);
+    }
+  
+    .nav-link{
+      position: relative;
+    padding-bottom: 1px !important;
+    padding-top: 1px !important;
+      font-size: 14px;
+      margin: 2px;
+      color: rgb(0, 0, 0) !important;
+      font-weight: 400 !important; 
+      font-family: 'Quicksand', sans-serif;
+    }
+  
+    .navbar-nav{
+      text-align: right;
+      margin-right: 20px;
+    }
+
+    .site-title-text{
+      font-family: 'Quicksand', sans-serif;
+      font-size: medium;
+    }
+
+    #profession{
+      font-size: xx-large;
+    }
+
+    #name{
+      font-weight: bold;
+      font-size: 50px;
+    }
+  
+    .menu-bar .navbar-toggler{
+      padding-right : 20px;
+      outline: none !important;
+      border: none !important;
+    }
+  
+    .navbar .fa{
+      color: black;
+      font-size: 26px;
+    }
+  
+    .nav-link:hover{
+      font-weight: 600 !important;
+      border-bottom: 0px solid rgb(0, 0, 0);
+      border-bottom-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-top: 0px solid black ;
+    }
+
+    .nav-link::after{
+      content: "";
+      position: absolute;
+      background: white;
+      height: 2px;
+      width: 0%;
+      left: 0;
+      bottom: -5px;
+      transition: 0.4s;
+    }
+    .nav-link:hover:after{
+        content: "";
+        position: absolute;
+        background: rgb(39, 39, 39);
+        height: 2px;
+        width: 100%;
+        left: 0;
+        bottom: -5px;
+    }
+    
+    .nav-link:hover{
+      font-weight: 600 !important;
+      border-bottom: 0px solid white;
+      border-bottom-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-top: 0px solid black ;
+    }
+    .active .nav-link {
+      font-weight: 600 !important;
+      border-bottom: 0px solid white;
+      border-bottom-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-top: 0px solid black ;
+    }
+
+      
+  @media (max-width: 768px) {
+    body {
+      padding: 0;
+    }
+
+    .mh-professional-skills {
+      padding-left: 0%;
+      
+    }
+    .nav-link:hover{
+      border-bottom: none !important;
+    }
+
+    .subsection{
+      height: 50vh;
+      margin-top: 20px;
+    }
+
+    h3{
+      margin-bottom: 40px;
+    }
+
+    .mh-professional-skills {
+      padding-left: 20%;
+      background-color: rgba(255, 255, 255, 0.158);
+
+    }
+
+    .mh-professional-skill2 {
+      margin-left: 10px;
+      padding-right: 0px !important;
+    }
+
+    .mh-skills .mh-professional-skill{
+      padding-right: 20px;
+      color: black;
+
+    }
+
+    .mh-skills-inner{
+      margin: 0px 10px;
+      margin-left: 0px;
+      padding: 10px;
+      padding-left: 20px !important;
+      background-color: rgba(255, 255, 255, 0.158);
+
+    }
+
+    .about-image{
+      height: 0px;
+      width: 100%;
+      margin: 0px auto !important;
+      padding-bottom: 10px;
+    } 
+
+  }
+
+   .about-image{
+    margin-left: 50px;
+    height: 500px;
+    width: 80%;
+    
+    
+  } 
+
+  h1 span{
+    font-weight: 900;
+    font-size: 50px;
+  }
+
+  .skills-heading{
+    font-weight: 700;
+  }
+
+  #skills{
+    margin: 20% 0px;
+    padding-bottom: 20px;
+    background: rgba(255, 0, 0, 0);
+  }
+
+  .p-skills1{
+    padding-top: 50px;
+  }
+
+  body{
+    background: rgba(255, 255, 255, 0);
+    background-image: url(/img/5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+  }
+
+  .skill-heading{
+    font-weight: bold !important;
+    font-size: 100px !important;
+  }
+
+  .good-at{
+    margin: 100px 20px !important;
+  }
+
+  #sticky-footer{
+    position: sticky;
+    top: 100%;
+  }

@@ -1,0 +1,228 @@
+
+  * {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    }
+
+    body{
+      background: url(/img/5.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+
+    }
+    #sticky-footer{
+      background-color: aliceblue;
+    }
+
+    .service-brief{
+      padding: 0 200px;
+    }
+
+    .menu-bar{
+     background-color: rgba(255, 255, 255, 0.315);
+    }
+  
+    .nav-link{
+      position: relative;
+    padding-bottom: 1px !important;
+    padding-top: 1px !important;
+      font-size: 14px;
+      margin: 2px;
+      color: rgb(0, 0, 0) !important;
+      font-weight: 400 !important; 
+      font-family: 'Quicksand', sans-serif;
+    }
+  
+    .navbar-nav{
+      text-align: right;
+      margin-right: 20px;
+    }
+
+    .site-title-text{
+      font-family: 'Quicksand', sans-serif;
+      font-size: medium;
+    }
+
+    #profession{
+      font-size: xx-large;
+    }
+
+    #name{
+      font-weight: bold;
+      font-size: 50px;
+    }
+  
+    .menu-bar .navbar-toggler{
+      padding-right : 20px;
+      outline: none !important;
+      border: none !important;
+    }
+  
+    .navbar .fa{
+      color: black;
+      font-size: 26px;
+    }
+    .nav-link::after{
+      content: "";
+      position: absolute;
+      background: white;
+      height: 2px;
+      width: 0%;
+      left: 0;
+      bottom: -5px;
+      transition: 0.4s;
+    }
+    .nav-link:hover:after{
+        content: "";
+        position: absolute;
+        background: rgb(39, 39, 39);
+        height: 2px;
+        width: 100%;
+        left: 0;
+        bottom: -5px;
+    }
+  
+    .nav-link:hover{
+      font-weight: 600 !important;
+      border-bottom: 0px solid rgb(0, 0, 0);
+      border-bottom-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-top: 0px solid black ;
+    }
+    
+    .nav-link:hover{
+      font-weight: 600 !important;
+      border-bottom: 0px solid rgb(0, 0, 0);
+      border-bottom-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-top: 0px solid black ;
+    }
+    .active .nav-link {
+      font-weight: 600 !important;
+      border-bottom: 0px solid white;
+      border-bottom-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-top: 0px solid black ;
+    }
+
+    /*Services section*/
+    .card{
+        height: 300px;
+        width: 500px;
+        border: none;
+        background-color: blue;
+        background: url(/img/6.jpg),blue no-repeat;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+        outline: none;
+        animation-duration: 1s;
+        animation-name: slideinn;
+        -webkit-box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+        -moz-box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+        box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+    }
+
+    .website .card-body{
+        width: 100%;
+        height: 100%;
+        background:  linear-gradient(45deg, rgba(0, 0, 0, 0.719) 30%, rgba(0, 89, 255, 0.664) 100%);
+    }
+
+    .sysad .card-body{
+      width: 100%;
+      height: 100%;
+      background:  linear-gradient(45deg, rgba(0, 0, 0, 0.719) 30%, rgba(255, 123, 0, 0.664) 100%);
+    }
+
+    .ux .card-body{
+      width: 100%;
+      height: 100%;
+      background:  linear-gradient(45deg, rgba(0, 0, 0, 0.719) 0%, rgba(21, 255, 0, 0.664) 100%);
+    }
+
+    .database .card-body{
+      width: 100%;
+      height: 100%;
+      background:  linear-gradient(45deg, rgba(0, 0, 0, 0.719) 0%, rgba(0, 255, 221, 0.664) 100%);
+    }
+
+    .android .card-body{
+      width: 100%;
+      height: 100%;
+      background:  linear-gradient(45deg, rgba(0, 0, 0, 0.719) 30%, rgba(255, 217, 0, 0.664) 100%);
+    }
+
+    .ios .card-body{
+      width: 100%;
+      height: 100%;
+      background:  linear-gradient(45deg, rgba(0, 0, 0, 0.719) 30%, rgba(255, 0, 157, 0.664) 100%);
+    }
+
+    .card p{
+        color: white;
+       
+    }
+    .service-icon{
+        background-color:transparent;
+        height: 100px;
+        width: 100px;
+        display: inline-block;
+        margin-bottom: 20px;
+        border-radius: 50px;
+    }
+    .fas{
+      margin: auto;
+    }
+
+    .card:hover .service-icon{
+      background-color: rgba(255, 255, 255, 0.274);
+      color: black;
+    }
+
+    .column-rightt{
+      transform: translateX(-100px);
+    }
+
+    .title-text{
+        font: normal bold 49px/60px 'Montserrat', sans-serif;
+    }
+    
+      @keyframes slidein {
+        from {
+          margin-right: 100%;
+          width: 300%;
+        }
+      
+        to {
+          margin-right: 100%;
+          width: 100%;
+        }
+      }
+      
+
+    /*Services section*/
+
+       
+  @media (max-width: 1000px) {
+    body {
+      padding: 0;
+    }
+
+
+    .card{
+        width: auto;
+        height: 400px;
+    }
+
+    .nav-link:hover{
+      border-bottom: none !important;
+    }
+
+    .column-rightt{
+      transform: translateX(0px);
+    }
+  }
